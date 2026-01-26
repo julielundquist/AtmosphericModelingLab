@@ -1,0 +1,15 @@
+# Student work (not tracked)
+student_work/
+
+# Jupyter junk
+.ipynb_checkpoints/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+

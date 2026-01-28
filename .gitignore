@@ -12,4 +12,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Ignore most WRF outputs
+wrfout*
+
+# Allow the one teaching example explicitly
+!ICA03/seabreezeU00ms/wrfout_d01_2007-06-01_05:00:00
+
 

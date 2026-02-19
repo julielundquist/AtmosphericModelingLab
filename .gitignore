@@ -16,6 +16,20 @@ Thumbs.db
 wrfout*
 
 # Allow the one teaching example explicitly
-!ICA03/seabreezeU00ms/wrfout_d01_2007-06-01_05:00:00
+# !ICA03/seabreezeU00ms/wrfout_d01_2007-06-01_05:00:00
 
+# Ignore figures
+*.png
 
+# Ignore WRF output
+wrfout*
+met_em*
+
+# Ignore simulation folders
+ICA03/seabreezeU*/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore frames/movies
+frames_contours/
